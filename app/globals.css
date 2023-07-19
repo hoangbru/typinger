@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+html,
+body,
+:root {
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.cha:hover .con{
+  display: block;
+  transition: ease-in .5s;
+}
